@@ -128,7 +128,7 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 
 @media (min-width: 768px) {
     #tm-nav.scroll .tm-container {
-        padding-top: 10px;
+        padding-top: 20px;
         padding-bottom: 10px;
     }
 }
@@ -163,4 +163,10 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
     .tm-menu-item-2 img {
         margin-bottom: 10px;
     }
+}
+
+
+
+.button_reg:hover {
+    background-color: #0a8585;
 }
