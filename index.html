@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Квартирник Великий Новгород</title>
+    <title>Квартирник Великий Новгород | Молодежь, музыка-песни, чай-кофе, общение.</title>
+    <meta description="Квартирник в Великом Новгороде">
     <link rel="icon" href="images/antique-cafe-bg-01.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +14,7 @@
     <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
+    <meta property="og:image" content="Ссылка на иллюстрацию" />
     
 
 </head>
@@ -79,10 +81,18 @@
                         <b>Что будет из аппаратуры и инструментов:</b> <br>клавиши, гитара акустическая, <br>электро-гитара с процессором Valeton GP-100 с топовыми патчами, <br>
                         шейкер, кахон. <br>
                         Усилитель, колонки, микрофоны + стойки <br>
-                    </p>
-                        
+                        Возможность включить минусовку.
+                    </p>    
                 </div>
             </div>
+            <div class="text-center">
+                <div class="inline-block">
+                    <a href="#contact" class="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">
+                        <i class="far fa-comments mr-4"></i>
+                        Хочу быть на квартирнике!
+                    </a>
+                </div>                    
+            </div>  
         </div>        
     </div>
 
@@ -96,7 +106,7 @@
                         Images are taken from Pexels, a great stock photo website. This template used Tailwind CSS. You may modify Antique Cafe template in any way you prefer and use it for your website.
                   </p>
                     <p class="text-base leading-8">
-                        If you wish to <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">support us</a>, please make a little donation via PayPal. That would be
+                        If you wish to , please make a little donation via PayPal. That would be
                     very helpful. Another way is to tell your friends about Tooplate website. Thank you. </p>
                 </div>
                 <a href="#contact" class="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">
@@ -115,11 +125,11 @@
                 <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
                     <h2 class="text-3xl mb-6 tm-text-green">Регистрация</h2>
                     <p class="mb-6 text-lg leading-8">
-                        Если вы хотите присутствовать на мероприятиии (неважно участник вы или просто гость), то вам необходимо зарегистрироваться!
+                        Если вы хотите присутствовать на мероприятиии (неважно исполнитель вы или просто гость), то вам необходимо зарегистрироваться!
                     </p>
                     <p class="mb-10 text-lg">
                         <span class="block mb-2">Тел: <a href="tel:0100200340" class="hover:text-yellow-600 transition">+7(922) 138-74-88</a></span>
-                        <span class="block">Email: <a href="mailto:info@company.com" class="hover:text-yellow-600 transition">info@company.com</a></span>                        
+                        <!-- <span class="block">Email: <a href="mailto:info@company.com" class="hover:text-yellow-600 transition">info@company.com</a></span>                         -->
                     </p>
                     <!-- <div class="text-center">
                         <a href="https://www.google.com/maps" class="inline-block text-white text-2xl pl-10 pr-12 py-6 rounded-lg transition tm-bg-green">
@@ -130,12 +140,12 @@
                 </div>
                 <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
                     <form action="" method="POST" class="text-lg">
-                        <input type="text" name="name" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Имя" required="" />
-                        <input type="email" name="phone" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Номер телефона" required="" />
-                        <input type="choiсe" name="participant-or-performer" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Участник или исполнитель" required="" />
+                        <input type="text" id="sendName" name="name" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Имя" required="" />
+                        <input type="phone" id="sendTel" name="phone" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Номер телефона" required="" />
+                        <input type="choiсe" id="messageInput" name="participant-or-performer" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Напишите гость или исполнитель" required="" />
                         <!-- <textarea rows="2" name="message" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Message..." required=""></textarea> -->
                         <div class="text-right">
-                            <button type="submit" class="button_reg inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">Send it</button>
+                            <button id="sendButton" type="submit" class="button_reg inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">Отправить</button>
                         </div>                        
                       </form>
                 </div>
@@ -152,6 +162,7 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/form.js"></script>
     <script>
 
         function checkAndShowHideMenu() {
@@ -200,5 +211,6 @@
             });
         });
     </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>; 
 </body>
 </html>
