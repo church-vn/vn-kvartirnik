@@ -25,6 +25,8 @@ p a:hover {
 
 #contact p a { color: #066; }
 
+#where_and_when p a { color: #066; }
+
 footer span a { color: #FFF; }
 
 .tm-logo-font {
@@ -77,8 +79,7 @@ a.tm-bg-green:hover {
 }
 
 .tm-item-container {
-    max-width: 520px;
-    /* max-width: 100% !important; */
+    max-width: 100%;
 }
 
 .input:focus {
