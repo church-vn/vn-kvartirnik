@@ -110,6 +110,11 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 #tm-nav.scroll {
     background-color: rgba(0,0,0,0.7);
 }
+@media screen and (max-width: 768px) {
+    #tm-nav.scroll-mobile {
+        background-color: rgba(0,0,0,0.7);
+    }
+}
 
 #tm-nav li a {
     border-bottom-color: transparent;
