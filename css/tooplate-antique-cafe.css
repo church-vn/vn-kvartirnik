@@ -78,6 +78,7 @@ a.tm-bg-green:hover {
 
 .tm-item-container {
     max-width: 520px;
+    /* max-width: 100% !important; */
 }
 
 .input:focus {
