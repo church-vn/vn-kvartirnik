@@ -175,3 +175,7 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 .button_reg:hover {
     background-color: #0a8585;
 }
+
+ul.parent_event_rules {
+    list-style: circle;
+}
