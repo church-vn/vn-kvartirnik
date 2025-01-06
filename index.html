@@ -720,39 +720,6 @@
 
 
 
-<!-- видео video -->
-
-  <!-- Контейнер для видео -->
-  <div class="video-container" onclick="openModal()">
-    <video autoplay muted loop>
-      <source src="video/video_kv.mp4" type="video/mp4">
-      Ваш браузер не поддерживает видео.
-    </video>
-
-    <!-- Кнопка для закрытия маленького видео -->
-    <button class="close-small-video" onclick="closeSmallVideo(event)">×</button>
-  </div>
-
-  <!-- Ярлычок для выдвижения видео с современным значком Play -->
-  <div class="shortcut" onclick="openVideoFromShortcut()">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="32" height="32">
-      <path d="M8 5v14l11-7z"/>
-    </svg>
-  </div>
-
-  <!-- Модальное окно с видео -->
-  <div class="modal" id="modal" onclick="closeModal(event)">
-    <div class="modal-content">
-      <video controls autoplay>
-        <source src="video/video_kv.mp4" type="video/mp4">
-        Ваш браузер не поддерживает видео.
-      </video>
-      <span class="close" onclick="closeModal(event)">&times;</span>
-    </div>
-  </div>
-
-
-
 <!-- Кнопка Благотворительности -->
   <div class="xmas-btn-charity" onclick="openXmasPopup()">
     Помощь детям
